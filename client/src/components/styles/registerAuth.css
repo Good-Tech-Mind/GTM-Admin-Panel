@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.inputFormContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: inset 2px 5px 11px 3px rgb(106 215 106 / 45%);
+}
+
+.inputFormContainer input {
+    border: none;
+    border-bottom: 2px solid rgb(90, 77, 2);
+    width: 100%;
+}

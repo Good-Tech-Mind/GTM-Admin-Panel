@@ -1,0 +1,33 @@
+.navbar {
+    background-color: rgb(229, 227, 227);
+    height: 8vh;
+    font-size: 1.3rem;
+}
+
+
+
+
+/* contentContainer Styling */
+.contentContainer {
+    height: calc(100vh - 21vh);
+}
+
+/* footer styling */
+.myfooter {
+    background-color: rgb(231, 231, 232);
+    height: 12vh;
+}
+
+.myfooter h2 {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.linkContainerFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.linkContainerFooter a {
+    margin: 0px 8px;
+}
